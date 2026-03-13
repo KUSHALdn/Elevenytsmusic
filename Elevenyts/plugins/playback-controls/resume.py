@@ -1,22 +1,9 @@
-# ==============================================================================
-# resume.py - Resume Playback Command
-# ==============================================================================
-# This plugin handles resuming paused voice chat playback.
-#
-# Commands:
-# - /resume - Resume paused playback
-#
-# Requirements:
-# - User must be admin or authorized user
-# - Music must be currently paused
-# ==============================================================================
-
 import logging
 from pyrogram import filters, types
 from pyrogram.errors import ChatSendPlainForbidden, ChatWriteForbidden
 
-from HasiiMusic import tune, app, db, lang
-from HasiiMusic.helpers import buttons, can_manage_vc
+from Elevenyts import tune, app, db, lang
+from Elevenyts.helpers import buttons, can_manage_vc
 
 logger = logging.getLogger(__name__)
 
