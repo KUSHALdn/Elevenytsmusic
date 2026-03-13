@@ -1,20 +1,6 @@
-# ==============================================================================
-# gban.py - Global Ban System (Sudo Only)
-# ==============================================================================
-# This plugin manages global bans across all groups where the bot is active.
-# Globally banned users are automatically kicked from all groups.
-#
-# Commands:
-# - /gban <user|reply> - Globally ban a user
-# - /ungban <user_id|reply> - Remove user from global ban
-# - /gbanlist - Show all globally banned users
-#
-# Only sudo users can manage global bans.
-# ==============================================================================
-
 from pyrogram import filters, types
 
-from HasiiMusic import app, db, lang, userbot
+from Elevenyts import app, db, lang, userbot
 
 
 @app.on_message(filters.command(["gban"]) & app.sudo_filter)
