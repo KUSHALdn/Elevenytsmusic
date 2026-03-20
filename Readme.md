@@ -62,7 +62,7 @@ COOKIE_URL=youtube_cookies_url (optional)
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/Msp0455/Elevenytsmusic
+git clone https://github.com/elevenyts/Elevenytsmusic
 cd Elevenytsmusic 
 ```
 
